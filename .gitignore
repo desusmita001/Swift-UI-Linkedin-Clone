@@ -1,0 +1,7 @@
+Assets.xcassets/
+*.xcuserstate
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate           
