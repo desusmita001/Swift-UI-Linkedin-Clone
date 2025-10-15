@@ -21,7 +21,7 @@ var socialView: [SocialView] = [
 ]
 
 
-let samplePostData = PostData(id: 1, Image: "02", title: "Hitesh Choudhary", followers: 5, profileImage: "1")
+let samplePostData = PostData(id: 1, Image: "02", title: "HelloThere", followers: 5, profileImage: "1")
 
 struct PostCardView: View {
     var data: PostData
@@ -50,7 +50,7 @@ struct PostCardView: View {
                 Spacer()
                 Image(systemName: "ellipsis")
             }.padding(.horizontal)
-            Text("Looking for a new course on iOS with swift UI, you are already at great place.")
+            Text("Fresh Seasons, fresh new everything.")
             Image(data.Image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
